@@ -1,0 +1,56 @@
+<div id="centralizar" class="row" ng-controller="ListaCtrl">
+<div class="col s8" ng-init="init()">
+<div class="section"></div>
+<table class="bordered center" ng-repeat="livro in livros">
+       <thead>
+         <tr>
+             <th data-field="isbn">ISBN</th>
+             <th data-field="nome">Nome</th>
+             <th data-field="ano">Ano</th>
+             <th data-field="autor">Autor</th>
+             <th data-field="editora">Editora</th>
+         </tr>
+       </thead>
+
+       <tbody>
+         <tr>
+           <td>{{livro.isbn}}</td>
+           <td>{{livro.nome}}</td>
+           <td>{{livro.ano}}</td>
+           <td>{{livro.autor}}</td>
+           <td>{{livro.editora}}</td>
+         </tr>
+       </tbody>
+     </table>
+
+     <table class="bordered center" ng-show="!livros.length">
+       <thead>
+         <tr>
+
+             <th data-field="isbn">ISBN</th>
+             <th data-field="nome">Nome</th>
+             <th data-field="ano">Ano</th>
+             <th data-field="autor">Autor</th>
+             <th data-field="editora">Editora</th>
+         </tr>
+       </thead>
+       <tbody>
+         <tr>
+           <td></td><td></td>
+           <td>Não há nenhum registro</td>
+           <td></td>
+           <td></td>
+         </tr>
+       </tbody>
+     </table>
+
+</div>
+</div>
+
+<div class="section"></div>
+<div class="section"></div>
+<div class="section"></div>
+<div class="section"></div>
+<div class="section"></div>
+<div class="section"></div>
+<div class="section"></div>

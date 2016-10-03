@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+  <html ng-app="app">
+    <head>
+      <!--  -->
+      <link href="css/icon.css" rel="stylesheet"/>
+      <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+      <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8"/>
+    </head>
+    <!-- -->
+    <body>
+
+      <!-- -->
+      <nav>
+      <div class="nav-wrapper blue">
+       <a href="#!" class="brand-logo center"></a>
+       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+       <ul class="right hide-on-med-and-down">
+         <li><a href="#/home">Home</a></li>
+         <li><a href="#/adicionar">Adicionar</a></li>
+         <li><a href="#/lista">Lista</a></li>
+         
+       </ul>
+       <ul class="side-nav" id="mobile-demo">
+         <li><a href="#/home">Home</a></li>
+         <li><a href="#/adicionar">Adicionar</a></li>
+         <li><a href="#/lista">Lista</a></li>
+         
+       </ul>
+      </div>
+      </nav>
+
+      <div ng-view></div>
+
+      <!-- -->
+       <footer class="page-footer blue">
+             <div class="container">
+               <div class="row">
+                 <div class="col l6 s12">
+                   <h5 class="white-text">crud-node-angular-mongo-materialize</h5>
+                   <p class="grey-text text-lighten-4">Crud básico utilizando Node como Api Restful, Angular na projeção das informações, Mongodb como banco e materialize como frontend.</p>
+                 </div>
+               </div>
+             </div>
+             <div class="footer-copyright">
+               <div class="container"> PPDS - AULA 05
+               </div>
+             </div>
+        </footer>
+
+           <!-- -->
+           <script src="js/angular.min.js"></script>
+           <script src="js/angular-route.min.js"></script>
+           <script src="app/app.js"></script>
+           <script src="app/controllers/controllers.js"></script>
+           <script src="js/jquery-2.1.1.min.js"></script>
+           <script src="js/jquery.validate.min.js"></script>
+           <script src="js/additional-methods.min.js"></script>
+           <script src="js/materialize.js"></script>
+           <script src="js/init.js"></script>
+           <script src="js/initadicionar.js"></script>
+    </body>
+
+  </html>

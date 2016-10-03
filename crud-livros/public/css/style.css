@@ -1,0 +1,23 @@
+#node-logo {
+    width: 50%;
+}
+
+#angular-logo {
+    width: 50%;
+}
+
+#materialize-logo {
+    width: 50%;
+}
+
+#mongo-logo {
+    width: 50%;
+}
+
+.row .col.s7 {
+    margin-left: 20% !important;
+}
+
+#centralizar {
+    margin-left: 20% !important;
+}

@@ -1,0 +1,68 @@
+<div class="row" ng-controller="AdicionarCtrl">
+
+  <div class="section"></div>
+
+   <form class="col s7">
+     <h5> Preencha o formulário: </h5>
+     <div class="section"></div>
+     <div class="row">
+       <div class="input-field col s9">
+         
+         <input id="isbn" type="text" class="active validate" ng-model="livro.isbn">
+         <label for="isbn"># ISBN</label>
+       </div>
+
+<div class="section"></div>
+
+       <div class="input-field col s9">
+         
+         <input id="nome" type="text" class="validate" ng-model="livro.nome">
+         <label for="nome" data-error="Nome inválido" data-success="Nome válido">Nome</label>
+       </div>
+
+<div class="section"></div>
+
+       <div class="input-field col s9">
+         
+         <input id="ano" type="number" class="validate" ng-model="livro.ano">
+         <label for="ano" data-error="Ano inválido" data-success="Ano válido">Ano</label>
+       </div>
+
+<div class="section"></div>
+
+       <div class="input-field col s9">
+         
+         <input id="autor" type="text" class="validate" ng-model="livro.autor">
+         <label for="autor" data-error="autor inválido" data-success="autor válido">Autor</label>
+       </div>
+
+<div class="section"></div>
+
+       <div class="input-field col s9">
+         
+         <input id="editora" type="text" class="validate" ng-model="livro.editora">
+         <label for="editora" data-error="Editora inválida" data-success="Editora válida">Editora</label>
+       </div>
+<div class="section"></div>
+
+       <div class="input-field col s9">
+         
+         <input id="critica" type="text" class="validate" ng-model="livro.critica">
+         <label for="critica" data-error="Crítica inválida" data-success="Crítica válida">Crítica</label>
+       </div>
+       
+       
+
+
+     </div>
+
+     <div class="center">
+     <a class="waves-effect waves-light btn" ng-click="adicionar()"><i class="material-icons left">send</i>Cadastrar</a>
+     <a class="waves-effect waves-light btn" ng-click="limparCampos()"><i class="material-icons right">cloud</i>Limpar</a>
+     </div>
+
+<div class="section"></div>
+<div class="section"></div>
+
+   </form>
+ </div>

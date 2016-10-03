@@ -1,0 +1,25 @@
+{
+  "name": "crud-livros-ang-materialize",
+  "version": "1.0.0",
+  "description": "PPDS Aula 05 - crud utilizando node, angular, mongo e materialize",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "",
+    "express": "",
+    "mongojs": ""
+  },
+  "scripts": {
+    "test": "echo \"Erro: Nenhum teste especificado\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marcoresende/ppds-aula-05.git/crud-livros"
+  },
+  "author": "Marco",
+  
+  "bugs": {
+    "url": "https://github.com/marcoresende"
+  },
+  "email": "marcoresende@outlook.com"
+}
